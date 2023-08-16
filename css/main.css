@@ -6,13 +6,13 @@ main {
   justify-content: space-between;
 }
 
-/* main-content ========= */
+/* MAIN CONTENT =============== */
 main .main-content {
   display: flex;
   flex-direction: column;
 }
 
-main .main-content .text h2 {
+main .main-content h2 {
   margin-bottom: 2%;
   font-size: 2.2em;
 }
@@ -25,10 +25,10 @@ main .main-content .text p {
   width: 75%;
   font-size: 1.2em;
   font-weight: 300;
+  line-height: 1.6;
 }
 
-/*CARDS ======================== */
-
+/* CARDS ================== */
 main .techs .cards-container {
   display: flex;
   align-items: center;
@@ -40,7 +40,8 @@ main .techs .cards-container .card {
   padding: 10px;
   background-color: #eee;
   border-radius: 8px;
-  margin-right: 1.8em;
+  margin-right: 0.9em;
+  margin-left: 0.9em;
   cursor: pointer;
 
   display: flex;
@@ -58,8 +59,7 @@ main .techs .cards-container .card:hover {
   box-shadow: 0px 0px 8px #00e0ff;
 }
 
-/* FIGURE ==================*/
-
+/* FIGURE ============= */
 main figure {
   display: flex;
   flex-direction: column;
@@ -75,7 +75,7 @@ main figure img {
   margin-bottom: 6%;
   cursor: pointer;
   border: 1px #00e0ff solid;
-  transition: 0.2 ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 main figure img:hover {
